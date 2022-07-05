@@ -1,0 +1,376 @@
+
+#wrapper {
+	position: relative;
+}
+/* Calender View */
+#calendar {
+	background-color: #f2f2f2;
+	border:1px solid black;
+}
+
+.calendar_link {
+	font-family: Arial;
+	font-size: 12px;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+.calendar_link_prev{
+	font-family: Arial;
+	font-size: 12px;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+.calendar_link_next{
+	font-family: Arial;
+	font-size: 12px;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+.calendar_head {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	width: 25px;
+}
+
+.calendar_head_month {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	width: 25px;
+	background-color: lightgray;
+	color: black;
+}
+
+.calendar_day {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	width: 25px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.calendar_entry {
+	font-family: Arial;
+	font-size: 12px;
+	text-decoration-color: grey;
+	width:50px;
+	height:50px;
+	background-color: #FFFFFF;
+}
+
+.streckeInDay {
+	border: #000000 1px solid;
+}
+
+#monthView {
+	position:absolute;
+	top: 0px;
+	left: 400px;
+	width: 391px;
+	border: solid black 1px;
+	background-color:lightgray;
+}
+
+#view{
+	position: absolute;
+	top: 0px;
+	left:396px;
+	height: 382px;
+	width: 980px;;
+	background-color: #f2f2f2;
+	border: solid black 1px;
+}
+
+#listDiv{
+	position: absolute;
+	margin: 8px;
+	left: 0px;
+	height: 3404px;
+	width: 200px;
+	
+
+}
+	#dayViewList {
+		overflow-y: scroll;
+		position: absolute;
+		height: 365px;
+		width: 800px;
+		background-color: white;
+		border: solid black 1px;
+	}
+
+		.dayViewListItem{
+			margin: 4px;
+			border: solid black 1px;
+			background-color: #f2f2f2;
+		}
+
+	
+
+	#dateView {
+		position: absolute;
+		margin: 8px;
+		right: 0px;
+		width: 150px;
+
+	}
+
+		.dateViewOutput{
+			width: 150px;
+		}
+
+
+#strecken {
+	position: absolute;
+	top: 384px;
+	height: 330px;
+	width: 1376px;
+	background-color: #f2f2f2;
+	border: solid black 1px;
+}
+
+
+	#sortByLabelForStreckenList{
+		position: absolute;
+		top: 30px;
+		left: 24px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+
+
+
+	#sortByStartName{
+		width: 100px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+
+	}
+
+	#sortByZielName{
+		width: 100px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+
+	}
+
+	#sortByStartStr{
+		width: 200px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+	}
+
+	#sortByZielStr{
+		width: 200px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+	}
+
+	#sortByStartHnr{
+		width: 30px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+	}
+
+	#sortByZielHnr{
+		width: 30px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+	}
+
+	#sortByStartPlz{
+		width: 50px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+	}
+
+	#sortByZielPlz{
+		width: 50px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+	}
+
+	#sortByStartOrt{
+		width: 150px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+	}
+
+	#sortByZielOrt{
+		width: 150px;
+		text-align: center;
+		background-color: #f2f2f2;
+	border: solid black 1px;
+	}
+
+	#streckenList{
+
+		position: absolute;
+		top: 50px;
+		padding: 4px;
+		overflow-y: scroll;
+		margin: 8px;
+		height: 220px;
+		width: 1350px;
+		background-color: white;
+		border: solid black 1px;
+	}
+
+		.containerDiv{
+			width: 1312px;
+			margin: 4px;
+			padding-left: 8px;
+			padding-right: 8px;
+			z-index: 100;
+			background-color: #f2f2f2;
+			border: solid black 1px;
+		}
+
+		.streckenListItemTable{
+			width: 1312px;
+			background-color: #f2f2f2;
+			border: solid #f2f2f2 1px;
+
+		}
+
+		.streckenListItemPunkt{
+			width: 30px;
+		}
+
+		.streckenListItemName{
+			width: 100px;
+			
+			background-color: white;
+			border: solid black 1px;
+		}
+
+		.steckenListItemStr{
+			width: 200px;
+			
+			background-color: white;
+			border: solid black 1px;
+		}
+
+		.steckenListItemHnr{
+			width: 30px;
+
+			background-color: white;
+			border: solid black 1px;
+		}
+
+		.steckenListItemPlz{
+			width: 50px;
+
+			background-color: white;
+			border: solid black 1px;
+		}
+
+		.steckenListItemOrt{
+			width: 150px;
+
+			background-color: white;
+			border: solid black 1px;	
+
+			}
+
+		.steckenListItemCheckBox{
+			width: 100px;
+		}
+
+
+		.streckenListItemDiv{
+			position: absolute;
+		z-index: 10;
+			width: 100%;
+			height:100%
+			;
+		}
+
+		.currentEntry{
+			font: bold;
+			background-color: lightgray;
+			
+		}
+
+	#newStreckenBtn {
+		position: absolute;
+	top: 300px;
+			left: 200px;
+			margin-left: 25px;
+	}
+
+	#addStreckeToDay{
+		position: absolute;
+		top: 300px;
+		margin-left: 25px;
+
+	}
+
+
+
+
+
+p {
+	background-color:white;
+	border: solid black 1px;
+	margin: 8px;
+}
+
+h4 {
+	margin: 8px;
+}
+
+dialog {
+	display: none;
+	position: relative;
+	z-index:1002;
+	background-color: lightgray;
+
+}
+
+dialog[open="open"] {
+  display: block;
+}
+
+dialog[open="close"] {
+  display: none;
+}
+
+
+@media (min-width: 30em) { 
+	dialog {
+	width: 20em; 
+	}
+}
+
+dialog::backdrop, #backdrop {      
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5); 				  
+}
