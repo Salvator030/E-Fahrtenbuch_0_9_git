@@ -1,0 +1,14 @@
+{
+	"name": "E-Fahrtenbuch_0.9",
+	"main": "/src/html/index.html",
+	"description": "",
+	"dependencies": {
+		"plist": "^3.0.5",
+		"sequelize": "^6.15.0",
+		"sqlite-sync": "^0.3.9",
+		"sqlite3": "^5.0.8"
+	},
+	"devDependencies": {
+		"nwjs-builder-phoenix": "^1.15.0"
+	}
+}
